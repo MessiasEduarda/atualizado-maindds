@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+    
+}
+body{
+   
+  width: 100%;
+  height: 100%;
+  background-position: left;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+
+}
+.post{
+  justify-content: left;
+}
+p{
+  color: #000000;
+}
+h6{
+  color: #000000;
+
+}
+.input-single{
+  justify-content: left;
+}
+
+
+.container___{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 6%;
+  display: inline-block;
+}
+
+form{
+  background: #fff;
+  max-width: 400px;
+  height: 450px;
+  padding: 40px;
+  border-radius: 20px;
+}
+form h1{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 22pt;
+}
+
+form p{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form .input-single{
+  position: relative;
+  margin: 30px 0;
+}
+
+form .input-single label{
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  cursor: text;
+  transition: all 0.5s;
+  color: #808080;
+}
+.container___{
+   
+  
+  text-align: right;
+  color: #fff;
+  margin: 10%;
+  
+  
+}
+
+form .input-single .input{
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #808080;
+  padding: 5px;
+  outline: 0;
+  font-size: 16px;
+}
+
+form .input-single .input:focus{
+  border-bottom: 2px solid #000000;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 12px;
+  color: #5d662d;
+}
+
+.btn{
+  width: 100%;
+  text-align: center;
+}
+
+form input[type=submit]{
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ffd000;
+  color: #fff;
+  font-size: 14pt;
+  cursor: pointer;
+}
+html {
+  height: 500vh;
+
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  
+
+}
+
+  .flex a {
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+    
+  }
+
+header {
+width: 100%;
+padding: 60px 4%;
+position: fixed;
+top: 0;
+left: 0;
+transition: .8s;
+
+}
+
+header.rolagem {
+  background-color: #00000073;
+  padding: 10px 4%;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+header.rolagem a, header.rolagem i {
+  color:rgb(255, 208, 0);
+}
+
+
+
+header ul {
+  list-style-type: none;
+
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-contato button {
+  width: 110px;
+  height:35px;
+  border: 0;
+  cursor: pointer;
+  transition: .2s;
+  align-items: center;
+}
+
+.btn-contato {
+  height: 55px;
+}
+
+.header{
+  background: fixed;
+  background-color: black;
+}
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .br{
+    background-color: black;
+  }
+
+
+/* IMAGEM DE FUNDO */
+#container {
+    width: 99vw;
+    height: 100vh;
+    background: url(img/colocar.png);
+    opacity: 100%;
+    background-size: cover;
+    
+}
+.card-text{
+  text-align: center;
+  border-radius: 0%;
+  border: 0cap;
+  margin: 0%;
+  
+}
+.border-warning{
+  align-items: center;
+   justify-content: space-around;
+   width: 30%;
+   height: 30%;
+   align-items: center;
+   background-color: rgb(31, 31, 36);
+   text-align: justify;
+  
+}
+.card{
+  width: auto;
+  height: auto;
+  float: left;
+  align-items: center;
+  margin: 66px;
+  border: 8px;
+  border-radius: 3px;
+ 
+}  
+.card-body{
+ text-align:center ;
+ color: rgb(255, 255, 255);
+}
+.navbar-expand-lg {
+    margin-left: auto;
+ 
+    display: flex;
+    align-items: center;
+    column-gap: 740px;
+ }
+#headar{
+    background-color: black;
+}
+head {
+    background-color: black;
+}
+
+#conteiner-img::after{
+    content: '';
+    width:inherit ;
+    height: inherit ;
+    position: fixed;
+    inset: 150;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+
+#form.input{
+    text-align: left;
+    column-gap: 2004px;
+}
+.form-control{
+  align-items: center;
+  margin-top: 20%;
+  margin: 20px;
+}
+.form-floating{
+  align-items: center;
+  margin-top: 20%;
+  margin: 20px;
+}
+.bg-navbar{
+background-color:black
+}
+
+.alert alert-warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* adjust the height as needed */
+  }
+  
+  .conteiner_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .col{
+    width: 1900%;
+    height: 1000%;
+    max-width: 1700px;
+   display: flex;
+  
+  
+
+   text-align: center;
+    align-items: center;
+ }
+ .nav.link{
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+ .card-body{
+    width: 100%;
+   
+   
+}
+
+
+.navbar-toggler{
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    position: relative;
+}
+.icone{
+    position: relative;
+    display: flex;
+    left: 1115px;
+}
+
+.navbar-toggler{
+    position: relative;
+    display: flex;
+ 
+}
+.card{
+    text-align: center;
+    column-gap: normal;
+    display: flex;
+    align-items: center;
+ 
+    
+  
+}
+.icone img{
+    width: 50%;
+    height: 50%;
+}
+.row-cols-1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    max-width: 140%;
+    background-color: rgb(31, 31, 36);
+  
+
+}
+.row{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    max-width: 140%;
+    background-color: rgb(31, 31, 36);
+}
+.border-card-body{
+    background-color: yellow;
+}
+.card-title{
+  color: #000000;
+  text-decoration: underline;
+ 
+}
+
+  .mb-3{
+    align-items: center;
+    margin-top: 20%;
+    margin: 20px;
+  }
+  .btn-primary{
+    margin-top: 20%;
+    margin: 20px;
+  }
+  h3{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 100px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+  }
+
+.roboto-slab-uniquifier {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+.playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+  
+
+
+
+
+ 
