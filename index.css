@@ -34,6 +34,11 @@ h6{
 .input-single{
   justify-content: left;
 }
+.cont_{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
 
 .container___{
@@ -49,6 +54,18 @@ form{
   height: 450px;
   padding: 40px;
   border-radius: 20px;
+}
+.form_{
+  background: #947f7f;
+  max-width: 400px;
+  height: 450px;
+  border-radius: 20px;
+}
+.container____{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 6%;
+  display: inline-block;
 }
 form h1{
   text-align: center;
